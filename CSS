@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap");
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background: var(--color-darkblue);
+  background-image: linear-gradient(
+      115deg,
+      rgba(58, 58, 158, 0.8),
+      rgba(136, 136, 206, 0.7)
+    ),
+    url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+body {
+  color: white;
+  font-family: "poppins";
+}
+
+#title {
+  text-align: center;
+  font-weight: 400;
+  margin-top: 46px;
+}
+
+#description {
+  font-weight: 400;
+  text-align: center;
+  margin-top: -15px;
+}
+
+#survey-form {
+  height: 1000px;
+  width: 700px;
+  background-color: #1b1b32;
+  margin: auto;
+  opacity: 0.9;
+  border-radius: 4px;
+}
+
+#name-container {
+  margin-left: 50px;
+  padding-top: 50px;
+}
+
+#name-label {
+  margin-right: 5px;
+}
+
+#name {
+  height: 30px;
+  width: 500px;
+  border-radius: 5px;
+}
+
+#email-container {
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+#email-label {
+  margin-right: 10px;
+}
+
+#email {
+  height: 30px;
+  width: 500px;
+  border-radius: 5px;
+}
+
+#age-container {
+  margin-left: 50px;
+  margin-top: 21px;
+}
+
+#number {
+  height: 27px;
+  margin-left: 21px;
+  margin-top: 11px;
+  width: 500px;
+  border-radius: 5px;
+}
+
+#role-container {
+  margin-left: 110px;
+  margin-top: 30px;
+}
+
+#dropdown {
+  margin-left: 109px;
+  height: 32px;
+  width: 508px;
+  border-radius: 5px;
+}
+
+#recommend-container {
+  margin-left: 110px;
+  margin-top: 30px;
+}
+
+#radio-container {
+  margin-left: 105px;
+  margin-top: 10px;
+}
+
+#definitely,
+#maybe,
+#not-sure {
+  margin-top: 10px;
+}
+
+#checkbox-container {
+  margin-left: 110px;
+  margin-top: 30px;
+}
+
+#checkbox-inner-container {
+  margin-top: 25px;
+}
+
+#comments-container {
+  margin-left: 110px;
+  margin-top: 20px;
+}
+
+#textarea-container {
+  margin-top: 10px;
+}
+
+#submit {
+  margin-top: 10px;
+  height: 30px;
+  width: 380px;
+  background: #37af65;
+  color: white;
+  border-radius: 2px;
+  border: 1px solid #37af65;
+}
